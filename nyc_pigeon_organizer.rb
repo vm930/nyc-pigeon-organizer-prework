@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
           new_hash[value_str] = {key1=>[value2.to_s]}
           #binding.pry
         else
-          if !(new_hash[value_str].has_key?(key1))
+          if !(new_hash[value_str][key1].has_key?(key1))
             new_hash[value_str][key1] = [key2.to_s]
           else 
             new_hash[value_str][key1] << key2.to_s
