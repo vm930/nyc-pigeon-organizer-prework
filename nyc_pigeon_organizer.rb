@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
       value2.each do |value_str|  #"theo"
         #new_hash[value_str] = {key1 =>[]}
         if !(new_hash.has_key?(value_str))
-          new_hash[value_str] = {key1 =>[value2.to_s]}
+          new_hash[value_str] = {key1=>[value2.to_s]}
           #binding.pry
         else
           if !(new_hash[value_str].has_key?(key1))
