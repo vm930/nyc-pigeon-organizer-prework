@@ -3,6 +3,7 @@ require "pry"
 
 def nyc_pigeon_organizer(data)
   new_hash = {}
+  
   data.each do 
     |key1, value1| # :color => {}
     value1.each do 
