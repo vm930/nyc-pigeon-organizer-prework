@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
       |key2, value2| #:purple => []
       value2.each do |value_str|  #"theo"
         #new_hash[value_str] = {key1 =>[]}
+       
         if !(new_hash.has_key?(value_str))
           new_hash[value_str] = {key1=>[value2.to_s]}
           #binding.pry
