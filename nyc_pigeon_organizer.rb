@@ -27,10 +27,6 @@ def nyc_pigeon_organizer(data)
 end 
 
 
-# i think i might need help with this :(((
-
-
-
 def nyc_pigeon_organizer(data)
   # write your code here!
   new_data = {}
